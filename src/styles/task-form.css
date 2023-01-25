@@ -1,0 +1,33 @@
+.form-task {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.task-input {
+  flex: 1;
+  background-color: white;
+  outline: none;
+  border: none;
+  padding: 0 8px;
+  border-radius: 5px;
+  color: #666;
+}
+.task-button {
+    margin-left: 6px;
+  padding: 8px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background: #da4453;
+  background: -webkit-linear-gradient(to right, #89216b, #da4453);
+  background: linear-gradient(to right, #89216b, #da4453);
+  border-radius: 5px;
+}
+
+.task-button:hover {
+  background: #da4453;
+}
